@@ -7,12 +7,12 @@ Lo sviluppo è stato portato avanti basandosi sull'happy path, non sono stati im
 Sono stati implementati test di unità per verificare il corretto funzionamento delle funzionalità principali, i test implementati non coprono tutti i casi possibili.
 
 ## Parametri di input di un ordine 
-FullPrice => Prezzo totale della pizza
-HasFidelityCard =>  Indica se il cliente possiede la fidelity card
-HasDisability => Indica se il cliente ha una disabilità
-GroupSize => Numero di persone della tavolata
-OrderDateTime => Data e ora dell'ordine
-CustomerAge => Età del cliente
+* FullPrice => Prezzo totale della pizza
+* HasFidelityCard =>  Indica se il cliente possiede la fidelity card
+* HasDisability => Indica se il cliente ha una disabilità
+* GroupSize => Numero di persone della tavolata
+* OrderDateTime => Data e ora dell'ordine
+* CustomerAge => Età del cliente
 
 ## Configurazione sconti
 Gli sconti sono configurabili nel fle appsetting.json nella sezione DiscountConfig.
