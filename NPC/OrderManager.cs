@@ -32,7 +32,7 @@ namespace NPC
                 discounts.Add(fidelityCardDiscount);
             }
 
-            //Sconto per i disabili
+            //Sconto per i soggetti con disabilità
             Console.WriteLine("Getting disability discount...");
             var disabilityDiscountCalculator = _discountCalculatorFactory.GetDiscountCalculator(DiscountType.Disability);
             var disabilityDiscount = disabilityDiscountCalculator.CalculateDiscount(order);
